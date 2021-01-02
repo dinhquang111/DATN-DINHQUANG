@@ -1,0 +1,161 @@
+.blog .blog-main .box-information{
+ width: 1300px;
+}
+
+.blog .blog-main .box-information h2{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: block;
+}
+ .blog .blog-main .box-information .blog-card-title{
+    display: block;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+.blog .blog-main .box-information .blog-card-title:hover h3{
+   color: #e1606a;
+}
+.blog .blog-main .box-information .blog-card-title h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #333;
+  
+}
+.blog .blog-main .box-information .blog-card-introduce{
+    color: #666666;
+}
+ .blog .blog-main .box-information .blog-card-detail{
+    background-color: transparent;
+    border: solid 2px #DDDEDF !important;
+    color: #555 !important;
+    min-width: unset;
+    padding: 5px 25px;
+    height: 34px !important;
+    line-height: 30px !important;
+    font-weight: 900;
+    border-radius:20px ;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+ .blog .blog-main .box-information .blog-card-detail:hover{
+    background-color: #e1606a;
+    color: #fff !important;
+    border: solid 2px #e1606a !important;
+}
+ .blog .blog-main .box-information .mgl{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.blog .blog-main .box-information  .detail{
+    width: 220px;
+    height: 220px;
+    border: solid 3px #F2F2F2;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+    top: -1.5rem;
+}
+.blog .blog-main .box-information .img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.blog .blog-main .box-information .card{
+    border: none;
+}
+.blog .blog-main .box-information .card .card-body{
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.blog .blog-main .box-information .include-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.blog .blog-main .box-information .include-img .img-thumbnail{
+    border: none;
+    border-style: none;
+    border: solid 3px #F2F2F2;
+    height: 16.5rem;
+}
+.blog .blog-main .box-information  .img:hover .include-img::before{
+    background: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+.blog .blog-main .box-information .img:hover ~.card-body .blog-card-title h3{
+    color: #e1606a;
+}
+.blog .blog-main .box-information  .card:hover .card-body a{
+    color: #e1606a;
+}
+.blog .blog-main .box-information .img .price{
+    position: absolute;
+    bottom: -3px;
+    left: 14px;
+    background-color: #e1606a;
+    border: solid 1px #F2F2F2;
+    padding: 1px 9px;
+    color: #F2F2F2;
+    z-index: 2;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.blog .blog-main .box-information .information-img{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.blog .blog-main .box-information .information-img:hover{
+    color: #e1606a
+}
+.blog .blog-main .box-information .detail .img:hover ~ .information-w.information-img{
+    color: #e1606a !important;
+}
+.blog .blog-main .box-information .information-w{
+    width: 210px;
+    bottom: 1.4em;
+}
+.blog .blog-main .box-information  #page-numbers {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .blog .blog-main .box-information   #page-numbers > li {
+    color: #e1606a;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 0 5px;
+    border: 1px solid #e1606a;;
+    text-align: center;
+    border-radius: 2px;
+  }
+  
+  .blog .blog-main .box-information    #page-numbers > li:not(.active):hover {
+    background: #e1606a;
+    color: white;
+  }
+  
+  .blog .blog-main .box-information    #page-numbers > li.active {
+    border-color: #e1606a;;
+    color: white;
+    background: #e1606a;
+    cursor: default;
+  }

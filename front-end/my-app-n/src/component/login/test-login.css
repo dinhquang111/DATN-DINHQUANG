@@ -1,0 +1,27 @@
+.test-login{
+    margin: 0; padding: 0;
+  }
+  .test-login .hero-bkg-animated {
+    background: gray url(https://i.ibb.co/nzx1VQt/78613211-seamless-pattern-and-background-with-thin-line-icons-related-to-pets-and-animals-for-pet-shop-websit.jpg) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    animation: slide 20s linear infinite;
+    /* animation-name: silde;
+    animation-direction: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite */
+  }
+  
+  .test-login .hero-bkg-animated h1 {
+    font-family: sans-serif;
+    color: red;
+  }
+  
+  @keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -400px 0; }
+  }

@@ -1,0 +1,136 @@
+/*CSS list product find*/
+.product .product-main .box-information{
+ /* background-color: #F5F5F5; */
+}
+
+.product .product-main .box-information h2{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: block;
+}
+/* .product .product-main .box-information .mgl{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+} */
+/* .product .product-main .box-information  .detail{
+    width: 220px;
+    height: 220px;
+    border: solid 3px #F2F2F2;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+    top: -1.5rem;
+} */
+/* .product .product-main .box-information .img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.product .product-main .box-information .card{
+    border: none;
+}
+.product .product-main .box-information .card .card-body{
+    margin-bottom: 2rem;
+    padding: 0;
+} */
+/* .product .product-main .box-information .include-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+} */
+/* .product .product-main .box-information .include-img .img-thumbnail{
+    border: none;
+    border-style: none;
+    border: solid 3px #F2F2F2;
+    width: 240px;
+    height: 240px;
+} */
+/* .product .product-main .box-information  .img:hover .include-img::before{
+    background: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+} */
+/* .product .product-main .box-information  .card:hover .card-body a{
+    color: #e1606a;
+}
+.product .product-main .box-information .img .price{
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    background-color: #F2F2F2;
+    border: solid 1px #F2F2F2;
+    padding: 5px 15px;
+    color: #e1606a;
+    z-index: 2;
+}
+.product .product-main .box-information .information-img{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+} */
+/* .product .product-main .box-information .information-img:hover{
+    color: #e1606a
+}
+.product .product-main .box-information .detail .img:hover ~ .information-w.information-img{
+    color: #e1606a !important;
+}
+.product .product-main .box-information .information-w{
+    width: 210px;
+    bottom: 1.4em;
+}
+.product .product-main .box-information  #page-numbers {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .product .product-main .box-information   #page-numbers > li {
+    color: #e1606a;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 0 5px;
+    border: 1px solid #e1606a;;
+    text-align: center;
+    border-radius: 2px;
+  }
+  
+  .product .product-main .box-information   #page-numbers > li:not(.active):hover {
+    background: #e1606a;
+    color: white;
+  }
+  
+  .product .product-main .box-information    #page-numbers > li.active {
+    border-color: #e1606a;;
+    color: white;
+    background: #e1606a;
+    cursor: default;
+  } */
+
+/* /// */
+  .item-row{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(214, 214, 214, 214);
+    border-bottom: 1px solid rgba(214, 214, 214, 214);
+}
+.item-row .include-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

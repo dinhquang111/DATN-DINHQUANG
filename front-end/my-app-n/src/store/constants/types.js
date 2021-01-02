@@ -1,0 +1,77 @@
+export const ADD_TOPIC = 'ADD_TOPIC'
+export const GET_TOPIC = 'GET_TOPIC'
+export const GET_TOPIC_DETAIL = 'GET_TOPIC_DETAIL'
+export const ADD_TOPIC_REPLY = 'ADD_TOPIC_REPLY'
+export const GET_TOPIC_CHILL = 'GET_TOPIC_CHILL'
+export const VIEWS = 'VIEWS'
+export const GET_CHILL_ALL = 'GET_CHILL_ALL'
+export const GET_TOPIC_ALL =  'GET_TOPIC_ALL'
+
+//////product
+export const FIND_PRODUCT_SUCCESS = 'FIND_PRODUCT_SUCCESS'
+export const GET_LIST_PRODUCT_SUCCESS = 'GET_LIST_PRODUCT_SUCCESS'
+export const SEARCH_PRODUCT = 'SEARCH_PRODUCT'
+export const FILTER_PRODUCT = 'FILTER_PRODUCT'
+export const ADD_PRODUCT = 'ADD_PRODUCT'
+export const EDIT_PRODUCT = 'EDIT_PRODUCT'
+export const DELETE_PRODUCT = 'DELETE_PRODUCT'
+
+/////Blog 
+export const GETBLOG_SUCCESS = 'GETBLOG_SUCCESS'
+export const FOUNDBLOG_SUCCESS = 'FOUNDBLOG_SUCCESS'
+export const ADD_BLOG = 'ADD_BLOG'
+export const GET_ALLBLOG_SUCCESS = 'GET_ALLBLOG_SUCCESS'
+export const EDIT_BLOG = 'EDIT_BLOG'
+export const DELETE_BLOG = 'DELETE_BLOG'
+
+///// Brand
+export const ADD_BRAND = 'ADD_BRAND'
+export const GET_LIST_BRANDS_SUCCESS='GET_LIST_BRANDS_SUCCESS'
+export const GET_ONE_BRAND_SUCCESS='GET_ONE_BRAND_SUCCESS'
+export const EDIT_BRAND = 'EDIT_BRAND'
+export const DELETE_BRAND='DELETE_BRAND'
+
+////// Pet 
+export const ADD_PET = 'ADD_PET'
+export const EDIT_PET = 'EDIT_PET'
+export const GET_ONE_PET_SUCCESS = 'GET_ONE_PET_SUCCESS'
+export const GET_LIST_PET_SUCCESS = 'GET_LIST_PET_SUCCESS'
+export const DELETE_PET = 'DELETE_PET'
+
+//////User
+export const USER_PROFILE = 'USER_PROFILE'
+export const EDIT_USER = 'EDIT_USER'
+export const GET_ALL_USER = 'GET_ALL_USER'
+export const USER_EXIST = 'USER_EXIST'
+export const USER_DONE = 'USER_DONE'
+export const USER_WRONG = 'USER_WRONG'
+export const PASSWORD_WRONG = 'PASSWORD_WRONG'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+
+////// category 
+export const ADD_CATEGORY = 'ADD_CATEGORY'
+export const GET_LISTCATEGORY_SUCCESS = "GET_LISTCATEGORY_SUCCESS"
+export const EDIT_CATEGORY = 'EDIT_CATEGORY'
+export const GET_ONECATEGORY_SUCCESS = 'GET_ONECATEGORY_SUCCESS'
+export const DELETE_CATEGORY = 'DELETE_CATEGORY'
+
+///////Origin
+export const ADD_ORIGIN = 'ADD_ORIGIN'
+export const GET_LISTORIGIN_SUCCESS = 'GET_LISTORIGIN_SUCCESS'
+export const GET_ONEORIGIN_SUCCESS = 'GET_ONEORIGIN_SUCCESS'
+export const EDIT_ORIGIN = 'EDIT_ORIGIN'
+export const DELETE_ORIGIN = 'DELETE_ORIGIN'
+
+
+//////Forum
+
+export const ADD_FORUM = 'ADD_FORUM'
+export const GET_LISTFORUMS_SUCCESS = 'GET_LISTFORUMS_SUCCESS'
+export const GET_ONE_FORUM = 'GET_ONE_FORUM'
+export const EDIT_FORUM = 'EDIT_FORUM'
+export const DELETE_FORUM = 'DELETE_FORUM'
+
+////// Topic
+export const DELETE_TOPIC = "DELETE_TOPIC"
+////predic
+export const PREDICT = "PREDICT"

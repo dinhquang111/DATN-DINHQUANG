@@ -1,0 +1,229 @@
+/*CSS slider list blog*/
+.blog .blog-main .product-list-d{
+    width: 1200px;
+    margin: auto;
+}
+.blog .blog-main .product-list-d .d-list{}
+.blog .blog-main .product-list-d .d-list .design-slide{
+    /* width: 1200px; */
+}
+
+.blog .blog-main .product-list-d .d-list .product-slider{
+    margin-bottom: 40px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider h2{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: inline;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .button-slider{
+    display: inline;
+    float: right;
+    margin-right: 8px;
+
+}
+.blog .blog-main .product-list-d .d-list .product-slider .button-slider .button{
+    background-color: #fff;
+    border: 3px solid #e1606a;
+    border-radius: 60%
+}
+.blog .blog-main .product-list-d .d-list .product-slider .button-slider .button .color-i{
+    color:  #e1606a;
+}
+.blog .blog-main .blog-card {
+    position: relative;
+    width: 360px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-img{
+   
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-img:hover::before{
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    content:"";
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    border-radius: 6px;
+}
+
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-img img{
+    width: 100%;
+    border-radius: 6px;
+    height: 275px;
+}
+
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .tt:hover ~ .blog-card-title h3{
+    color: #e1606a;
+}
+
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-title{
+    display: block;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-title:hover h3{
+   color: #e1606a;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-title h3{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 600;
+    color: #333;
+  
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-introduce{
+    color: #666666;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-detail{
+    background-color: transparent;
+    border: solid 2px #DDDEDF !important;
+    color: #555 !important;
+    min-width: unset;
+    padding: 0 25px;
+    height: 34px !important;
+    line-height: 30px !important;
+    font-weight: 900;
+    border-radius:20px ;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card .blog-card-detail:hover{
+    background-color: #e1606a;
+    color: #fff !important;
+    border: solid 2px #e1606a !important;
+}
+
+.blog .blog-main .product-list-d .d-list .product-slider h2{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: block;
+}
+ .blog .blog-main .product-list-d .d-list .product-slider .blog-card-title{
+    display: block;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card-title:hover h3{
+   color: #e1606a;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card-title h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #333;
+  
+}
+.blog .blog-main .product-list-d .d-list .product-slider .blog-card-introduce{
+    color: #666666;
+}
+ .blog .blog-main .product-list-d .d-list .product-slider .blog-card-detail{
+    background-color: transparent;
+    border: solid 2px #DDDEDF !important;
+    color: #555 !important;
+    min-width: unset;
+    padding: 5px 25px;
+    height: 34px !important;
+    line-height: 30px !important;
+    font-weight: 900;
+    border-radius:20px ;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+ .blog .blog-main .product-list-d .d-list .product-slider .blog-card-detail:hover{
+    background-color: #e1606a;
+    color: #fff !important;
+    border: solid 2px #e1606a !important;
+}
+ .blog .blog-main .product-list-d .d-list .product-slider .mgl{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.blog .blog-main .product-list-d .d-list .product-slider  .detail{
+    width: 220px;
+    height: 220px;
+    border: solid 3px #F2F2F2;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+    top: -1.5rem;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .card{
+    border: none;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .card .card-body{
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .include-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .include-img .img-thumbnail{
+    border: none;
+    border-style: none;
+    border: solid 3px #F2F2F2;
+    height: 16.5rem;
+}
+.blog .blog-main .product-list-d .d-list .product-slider  .img:hover .include-img::before{
+    background: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .img:hover ~.card-body .blog-card-title h3{
+    color: #e1606a;
+}
+.blog .blog-main .product-list-d .d-list .product-slider  .card:hover .card-body a{
+    color: #e1606a;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .img .price{
+    position: absolute;
+    bottom: -3px;
+    left: 14px;
+    background-color: #e1606a;
+    border: solid 1px #F2F2F2;
+    padding: 1px 9px;
+    color: #F2F2F2;
+    z-index: 2;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .information-img{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .information-img:hover{
+    color: #e1606a
+}
+.blog .blog-main .product-list-d .d-list .product-slider .detail .img:hover ~ .information-w.information-img{
+    color: #e1606a !important;
+}
+.blog .blog-main .product-list-d .d-list .product-slider .information-w{
+    width: 210px;
+    bottom: 1.4em;
+}

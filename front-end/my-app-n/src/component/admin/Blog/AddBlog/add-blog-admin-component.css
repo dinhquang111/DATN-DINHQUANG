@@ -1,0 +1,59 @@
+.upload-component .brand h1{
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    color: #e1606a;
+    text-align: center
+}
+.upload-component .ca{
+    width: 800px !important;
+}
+.upload-component .upload-file{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  
+}
+.upload-component .input-group .input-group-prepend .input-group-text{
+    background-color: #fff;
+    font-size: 15px;
+    font-family:  'Muli', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e1606a
+}
+.upload-component .custom-file-label::after{
+    visibility: hidden;
+}
+.upload-component .title{
+    font-family:  'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    color: #e1606a
+}
+.upload-component .upload-margin{
+    margin: 10px 0px;
+}
+.upload-component .form-control-lg{
+    margin-top: 10px;
+    font-size:1rem !important;
+}
+.upload-component .upload-cusntom-upload{
+    width: 60%;
+}
+.upload-component .btn-color{
+    background-color: #e1606a;
+    border: 1px solid #e1606a
+}
+.upload-component .button-submit{
+    box-shadow: none;
+}
+.upload-component .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #e1606a ;
+    border-color: #e1606a;
+}

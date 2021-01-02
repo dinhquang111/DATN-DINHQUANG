@@ -1,0 +1,63 @@
+
+.form{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+
+}
+.form .header{
+    font-family: 'Baskervville', serif !important;
+    letter-spacing: 0.8rem;
+}
+.form .form-hd{
+    height: calc(250px + 200 * (100vw - 600px) / 1320);
+    position: relative;  
+}
+.form .form-hd::before{
+    background-image: url('../../image/Background/banner-header-blog.jpg');
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* @keyframes slide {
+    from { background-position: 0 0; }
+    to { background-size: -400px 0; }
+} */
+.form .form-hd::after{
+    background: rgba(0, 0, 0, 0.15);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.form .form-hd .form-bg{}
+.form .form-hd .form-title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.form .color-bg{
+    background-color: #f8f4f4c7;
+}
+.form .form-hd .form-content{
+    max-height: 0;
+    overflow: hidden;
+}
+.form .form-hd .form-content .header{
+    animation: anima 3s 1;
+}
+@keyframes anima {
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 25px;
+        /* margin-bottom: -20px; */
+    }
+    85%{
+        letter-spacing: 10px;
+        /* margin-bottom: -20px; */
+    }
+  }

@@ -1,0 +1,84 @@
+.topic-detail{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f8f4f4c7;
+}
+.topic-detail .btn-color{
+    background-color: #e1606a;
+    font-size: 12px;
+}
+.topic-detail .top-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.topic-detail .top-header .font-star{
+   font-size: 19px;
+}
+.topic-detail .content{
+    font-size:  14px;
+    font-family: 'Muli', sans-serif;
+   
+}
+.topic-detail .content .color-fire{
+    color : #e1606a
+}
+.topic-detail .content .color-file{
+    color : #A4B2BB
+}
+.topic-detail .content .content-bg{
+    background-color: #ffffff;
+    padding: 30px;
+}
+.topic-detail .content .border-content{
+    border-bottom: 2px solid #EBEBEB;
+    border-top: 2px solid #EBEBEB;
+    padding: 30px 0px;
+    margin-bottom: unset;
+}
+.topic-detail .color-arr{
+    color :#A4B2BB;
+    font-size: 12px;
+}
+.topic-detail .btn-color{
+    color: #fff;
+    width: 15%;
+    height: 40px;
+}
+.topic-detail .title{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+/*pagination*/
+.topic-detail  #page-numbers {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      
+.topic-detail   #page-numbers > li {
+        color: #e1606a;
+        user-select: none;
+        cursor: pointer;
+        margin: 0 3px;
+        padding: 0 5px;
+        border: 1px solid #e1606a;;
+        text-align: center;
+        border-radius: 2px;
+      }
+      
+.topic-detail    #page-numbers > li:not(.active):hover {
+        background: #e1606a;
+        color: white;
+      }
+      
+.topic-detail    #page-numbers > li.active {
+        border-color: #e1606a;;
+        color: white;
+        background: #e1606a;
+        cursor: default;
+      }
+    

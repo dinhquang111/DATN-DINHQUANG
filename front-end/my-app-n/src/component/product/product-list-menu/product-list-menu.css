@@ -1,0 +1,98 @@
+.product .product-main .product-list-menu .product-menu{
+    padding: 20px 28px 0px 28px;
+    padding-bottom: 5px;
+
+}
+.product .product-main .product-menu-bg{
+  background: #F5F5F5;
+}
+.product .product-main .product-list-menu .product-menu a{
+    text-decoration: none;
+    color: #e1606a;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    /* margin: 12px auto; */
+    /* border-top:1px solid #EBEBEB; */
+    /* padding-top:30px;
+    padding-bottom: 15px; */
+}
+.product .product-main .product-list-menu .product-menu .list-menu{}
+
+/*CSS button radio
+ .product .product-main .product-list-menu .product-menu .list-menu ul>li*/
+ .product .product-main .product-list-menu .product-menu .list-menu ul{
+     list-style-type: none;
+     margin-left: -40px;
+ }
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;  
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 10%;
+    border: 1px solid black;
+  }
+  
+  /* On mouse-over, add a grey background color */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .container:hover input ~ .checkmark {
+    /* background-color: #ccc; */
+  }
+  
+  /* When the radio button is checked, add a blue background */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .container input:checked ~ .checkmark {
+    background-color: #e1606a;
+  }
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .container  input:checked ~ .title {
+    color: #e1606a;
+}
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+.product .product-main .product-list-menu .product-menu .list-menu ul>li  .container .checkmark:after {
+       /* top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white; */
+  }
+  .product .product-main .product-list-menu .product-menu .list-menu ul>li  .container span:hover{
+    color: #e1606a;
+  }
+  .product .product-main .product-list-menu .product-menu .list-menu ul>li  .container .title{
+    font-size: 15px;
+  }

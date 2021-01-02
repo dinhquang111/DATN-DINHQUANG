@@ -1,0 +1,117 @@
+/* .my-alert {
+    position: absolute;
+    z-index: 9999;
+    margin: auto;
+    border: 1px solid lightgray;
+    background: white;
+    min-width: 600px;
+    min-height: 400px;
+  
+}
+.body-login{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url("../../image/h1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.btn-login{
+    background-color: #e1606a !important
+}
+.loginbox{
+    width: 320px;
+    height: 440px;
+    background: #fff;
+    color: black;
+    top : 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.loginbox .register{
+    width: 350px !important;
+    height: 74vh !important;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:35%;
+}
+.loginbox h1{
+    margin-top : 4rem;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 0 8px 16px;
+
+}
+
+.loginbox button{
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #e1606a !important;
+    border-color: #e1606a !important;
+    margin-top: 2rem
+}
+.linh{
+    display: block;
+    color: black;
+    padding-top:7px;
+    text-align: center
+}
+.linh:hover{
+    text-decoration: none;
+}
+.textbox{
+    width: 90%;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid #e1606a;
+    margin-bottom: 20px;
+    margin: auto
+}
+.textbox i{
+    width: 20px;
+    text-align: center;
+  
+}
+.textbox input{
+    border : none;
+    outline : none;
+    background : none;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 0 10px 9px;
+}
+.loginbox .p-login-register{
+    width: 95%;
+   text-align: center;
+   margin-top: 2.5rem;
+}
+.loginbox .p-login-register span{
+    color: rgba(0, 0, 0, 0.5)
+}
+.loginbox .p-login-register a{
+    text-decoration: none
+} */

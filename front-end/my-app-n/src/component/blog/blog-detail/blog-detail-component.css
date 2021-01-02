@@ -1,0 +1,75 @@
+.blog-detail{
+    padding-top: 60px;
+    background-color: rgba(116, 105, 105, 0.034);
+}
+.blog-detail .titleMan{}
+.blog-detail .titleMan h1{
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.blog-detail .titleMan .date{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+.blog-detail .titleMan .date .data-border{
+    border-left: 2px solid #333333;
+    margin-left: 8px;
+    padding-left: 10px;
+}
+.blog-detail .titleMan p{
+    font-style: italic;
+    color: #333;
+}
+.blog-detail .titleMan p::after{
+    position: absolute;
+    background-color: #e1606a;
+    content: "";
+    bottom: -1.1rem;
+    left: 0;
+    right: 0;
+    background-position: bottom;
+    width: 6rem;
+    height: 0.5rem;
+}
+.blog-detail .content{
+    margin-top: 36px;
+}
+.blog-detail .share{
+    margin-top: 36px;
+}
+.blog-detail .share .share-d{}
+.blog-detail .share .share-d .icon{
+    text-align: center;
+    position: relative;
+}
+.blog-detail .share .share-d p::before{
+    position: absolute;
+    background-color: #333333;
+    content: "";
+    top:10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.blog-detail .share .share-d .icon .info{
+    background-color: #fff;
+    color: #333333;
+    text-transform: uppercase;
+}
+.blog-detail .share .share-d .icon  .info .mgl{
+    margin-left: 10px;
+}
+.blog-detail .share .share-d .icon .info .sha{
+   opacity: 0.7;
+}
+
+
+   

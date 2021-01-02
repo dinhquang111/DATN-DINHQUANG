@@ -1,0 +1,147 @@
+.detail-height{
+}
+.detail-admin{
+    font-family: 'Muli', sans-serif;
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.detail-admin .image-product{
+    margin-bottom: 25px;
+}
+.detail-admin .image-product .image-product-border{
+    width: 456px;
+    height: 400px;
+    border: solid 1px #cccccc61;
+}
+.detail-admin .image-product .image-product-border img{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+
+}
+.detail-admin .information-product{
+    margin-bottom: 25px;
+}
+
+.detail-admin .information-product h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #e1606a;
+}
+.detail-admin .information-product{
+ 
+}
+
+.detail-admin .information-product .overall{
+}
+.detail-admin .information-product .overall table{
+    border-collapse: collapse;
+    width: 85%;
+}
+.detail-admin .information-product .overall table tr{
+   padding: 5px 0px;
+}
+.detail-admin .information-product .overall table tr .overall-list{
+   width: 30%;
+   font-weight: 700;
+   font-size: 14px;
+}
+.detail-admin .information-product .overall table tr td .unit{
+    top : 8px;
+    font-size:10px;
+}
+.detail-admin .information-product .overall table th,td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0.5px solid #cccccc61;
+  }
+.detail-information-product{
+    width: 100%;
+    margin-left: 4rem;
+}
+
+.detail-information-product .intro{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.detail-information-product .intro{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.detail-information-product .intro::after{
+  content: "";
+  background: #e1606a;
+  margin-top: 5px;
+  display: block;
+  height: 5px;
+  width: 100px;
+}
+.detail-admin .information-product .bootstrap-touchspin{
+    display: block;
+    border: 0;
+    height: 28px;
+    padding: 0;
+    width: 28px;
+    text-align: center;
+    
+}
+.detail-admin .information-product .input-group{
+    border-collapse: separate;
+}
+.detail-admin .information-product .bootstrap-touchspin .input-group-btn .bootstrap-touchspin-down{
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 1px 10px;
+}
+
+.detail-admin .information-product .bootstrap-touchspin .input-group-btn .bootstrap-touchspin-up{
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 1px 10px;
+}
+.detail-admin .information-product .bootstrap-touchspin .dd{
+    border-radius: none;
+}
+
+.detail-admin .information-product .bootstrap-touchspin .input-group-btn{
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+.detail-admin .information-product .bootstrap-touchspin .bootstrap-touchspin2{
+    display: block;
+    border: 0;
+    height: 28px;
+    padding: 0;
+    width: 28px;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+    font-size: 12px;
+}
+.detail-admin .information-product .btn-buy{
+    background-color: #e1606a;
+    color: #fff;
+    font-weight: 900;
+    height: 40px;
+   width: 50%;
+}
+.detail-admin .information-product .sl{
+    line-height: 6px;
+    font-size: 11px;
+    margin-bottom: 6px;
+    color: #7b7b7b;
+    
+}
+.zIndex{
+    z-index: 999;
+}

@@ -1,0 +1,214 @@
+.product{
+    font-family: 'Muli', sans-serif;
+}
+.product .product-hd{
+    height: calc(250px + 200 * (100vw - 600px) / 1320);
+    position: relative;  
+}
+.product .product-hd::before{
+    background-image: url('../../image/Background/maxresdefault.gif');
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product .product-hd::after{
+    background: rgba(0, 0, 0, 0.15);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.product .product-hd .product-bg{}
+.product .product-hd .product-title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.product .product-hd .product-title .product-content{
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+   max-height: 0;
+   overflow: hidden;
+
+}
+.product .product-hd .product-title .product-content .header{
+    animation: product-anima 3s 1;
+    margin-top: 4rem;
+    color: yellow;
+}
+@keyframes product-anima {
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 25px;
+        /* margin-bottom: -20px; */
+    }
+    85%{
+        letter-spacing: 10px;
+        /* margin-bottom: -20px; */
+    }
+  }
+.product .product-hd .product-title .product-content h2{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+.product .product-hd .product-title .product-content h2::after{
+    content: '';
+    background: rgba(255, 255, 255, 0.7);
+    margin: 12px auto;
+    display: block
+}
+.product-search{
+    position: relative;
+}
+.product-search .product-search-hd {}
+.product-search .product-search-hd .btn-search{
+ color: #fff;
+ background-color: #e1606a;
+ margin-left: 20px;
+    margin-top: 4px;
+}
+.product-search .product-search-hd .product-formSearch{}
+.product-search .product-search-hd .product-formSearch .container{
+    max-width: 1200px;
+    padding: 30px 30px 20px 30px;
+    background: #F5F5F5;
+
+}
+.product-search .product-search-hd .product-formSearch h4{
+    text-transform: uppercase;
+    color: #e1606a;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+.product-search .product-search-hd .product-formSearch .forms{}
+.product-search .product-search-hd .product-formSearch .forms .muti-input{
+    width: calc(100% - 180px);
+    position: relative;
+    float: left;
+}
+.product-search .product-search-hd .product-formSearch .forms a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 700;
+    background-color:#e1606a;
+    width: 150px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    padding-top:13px;
+    -webkit-border-radius: 5px;
+
+}
+.product-search .product-search-hd .product-formSearch .forms .form-control{
+    height: 50px;
+}
+.product-search .product-search-hd .product-formSearch .forms .custom-select{
+    height: 50px;
+}
+.product .product-main{
+   margin: auto;
+   margin-bottom: 5rem;
+}
+.product .product-main .product-list-menu{
+    width: 280px;
+    float: left;
+}
+/*CSS list product find*/
+/* .product .product-main .box-information{
+    width: calc(100% - 354px);
+    float: right
+}
+.product .product-main .box-information h2{
+    font-size: 30px;
+    color: #e1606a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: block;
+}
+.product .product-main .box-information  .detail{
+    width: 250px;
+    height: 250px;
+    border: solid 3px #F2F2F2;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.product .product-main .box-information  .detail .img{
+   
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    display: block;
+}
+.product .product-main .box-information  .detail .img:hover .include-img::after{
+    background: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+.product .product-main .box-information  .detail .include-img img{
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        
+}
+.product .product-main .box-information  .detail .img .price{
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    background-color: #F2F2F2;
+    border: solid 1px #F2F2F2;
+    padding: 5px 15px;
+    color: #e1606a;
+    z-index: 2;
+}
+.product .product-main .box-information  .detail .img .price .price-cost{
+   
+}
+.product .product-main .box-information  .detail .img .price .price-d{
+   font-size: 12px;
+   position: relative;
+   top:-5px;
+}
+.product .product-main .box-information  .detail .information-img{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+.product .product-main .box-information  .detail .information-img:hover{
+    color: #e1606a
+}
+.product .product-main .box-information  .detail .img:hover ~ .information-img{
+    color: #e1606a !important
+} */

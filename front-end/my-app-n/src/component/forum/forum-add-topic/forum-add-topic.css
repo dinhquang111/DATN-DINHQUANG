@@ -1,0 +1,16 @@
+.add-topic{
+    font-family: 'Muli', sans-serif;
+}
+.add-topic .title{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e1606a;
+    font-weight: 700;
+}
+.add-topic .btn-color{
+    background-color: #e1606a;
+    color: #fff;
+}
+.add-topic .w-btn{
+    width: 25%;
+}

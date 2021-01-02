@@ -1,0 +1,92 @@
+.admin-component{
+    font-family: 'Muli', sans-serif;
+}
+.admin-component .sidebar{
+    height: 100vh;
+    background: linear-gradient(#1D4350,#A43931), url('../../image/Admin/img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 7px 25px #999
+}
+.admin-component .bottom-border{
+    border-bottom: 1px groove #eeee
+}
+.admin-component .sidebar-link{
+    transition: all .4s
+}
+.admin-component .sidebar-link:hover{
+    background-color: #444;
+    border-radius:  5px;
+}
+.admin-component .current{
+    transition:  all .3s
+}
+.admin-component .current:hover{
+    border-radius: 7px;
+    background-color: #e1606a;
+    box-shadow: 2px 5px 20px #e1606a;
+    transform: translateY(-1px);
+}
+.admin-component .search-input{
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #999
+}
+.admin-component .search-input:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.admin-component .search-button{
+    background-color: #999;
+    border:none
+}
+.admin-component .icon-parent{
+    position: relative;
+}
+.admin-component .icon-bullet::after{
+    content:"";
+    position: absolute;
+    top:7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    background-color: #e1606a;
+    border-radius: 50%
+}
+.admin-component .view{
+    background-color: #e1606a;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 32px;
+    line-height: 30px;
+}
+.admin-component .table-magin-top{
+    margin-top: 8rem
+}
+.admin-component .header-bg{
+    background: #1f434f;
+}
+.admin-component .admin-brand{
+    padding: 1rem 0 0.7rem 0;
+}
+
+.admin-component .custom-logo {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 38px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Italianno', cursive;
+}
+@media(max-width:768px){
+    .sidebar{
+        position: static;
+        /* height: auto; */
+    }
+    .top-navbar{
+        position: static;
+    }
+}

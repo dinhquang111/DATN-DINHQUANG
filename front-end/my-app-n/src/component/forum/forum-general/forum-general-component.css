@@ -1,0 +1,189 @@
+.form .color-form{
+    /* background-color: #e3e3e3; */
+}
+.form .form-hd .form-title .form-content{
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+
+}
+.form .form-hd .form-title .form-content h2{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: 4rem;
+}
+.form .form-hd .form-title .form-content h2::after{
+    content: '';
+    background: rgba(255, 255, 255, 0.7);
+    margin: 12px auto;
+    display: block
+}
+.form .form-search{
+    position: relative;
+}
+.form .form-search .form-search-hd {}
+.form .form-search .form-search-hd .form-formSearch{}
+.form .form-search .form-search-hd .form-formSearch .container{
+    max-width: 1200px;
+    padding: 25px 30px 0px 30px;
+    background: #e1606a;
+
+}
+.form .form-search .form-search-hd .form-formSearch .catelogy-form{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+.form .form-search .form-search-hd .form-formSearch .catelogy-form li{
+    
+   
+}
+.form .form-search .form-search-hd .form-formSearch .catelogy-form li a{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+.form .form-search .form-search-hd .form-formSearch .catelogy-form li a:hover{
+    border-bottom: 1px solid #fff;
+ }
+.form .form-search .form-search-hd .form-formSearch .catelogy-form .border-l{
+    border-left: 3px solid #fff;
+    padding-left: 33px;
+ }
+.form .form-main{
+   margin: auto;
+   /* height: 100vh !important; */
+}
+.form .form-main .form-list-menu{
+    width: 280px;
+    float: right;
+    background-color:  #F5F5F5;
+}
+/*CSS list form find*/
+.form .form-main .form-information{
+    /* width: calc(100% - 100px);
+    float: left */
+}
+.form .form-main .form-information .topiclist{
+    font-family: 'Ubuntu', sans-serif;
+}
+.form .form-main .form-information .topiclist .information-main{
+    height: 50px;
+    background-color: #e1606a;
+    border-radius: 5px 5px 0 0;
+    padding: 0 20px;
+    margin-bottom: unset;
+}
+/* .form .form-main .form-information .topiclist ul .bg-icon::before{
+    background-image: url("../../image/i-dog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+} */
+.form .form-main .form-information .topiclist .information-main li{
+    display: inline;
+    line-height: 50px;
+}
+.form .form-main .form-information .topiclist .information-main .header-name{
+    display: block;
+    width: 50%;
+    float: left;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.form .form-main .form-information .topiclist .information-main .topics{
+    display: block;
+    width: 8%;
+    float: left;
+    
+}
+.form .form-main .form-information .topiclist .information-main .posts{
+    display: block;
+    width: 8%;
+    float: left;
+}
+.form .form-main .form-information .topiclist .information-main .last-post{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.form .form-main .form-information .topiclist .information-main .text-color{
+    color: #fff;
+    font-size: 1rem;
+}
+.form .form-main .form-information .topiclist .information-category{
+    height: 100px;
+    padding: 0 20px;
+    background-color: #fff;
+    margin-bottom: unset;
+}
+.form .form-main .form-information .topiclist .information-category .bg-icon::before{
+    background-color: #777777;
+    position: absolute;
+    background-repeat: no-repeat;
+    content:"";
+    top:99px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.form .form-main .form-information .topiclist .information-category .bg-last{
+
+}
+.form .form-main .form-information .topiclist .information-category .header-name{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.form .form-main .form-information .topiclist .information-category .header-name .hd-color{
+    color: black;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+
+}
+.form .form-main .form-information .topiclist .information-category .header-name .hd-color:hover{
+    color: #e1606a;
+}
+.form .form-main .form-information .topiclist .information-category .header-name .dec-color{
+    color: #777777;
+   font-size: 12px;
+}
+.form .form-main .form-information .topiclist .information-category .topics{
+    display: block;
+    width: 8%;
+    float: left;
+    
+}
+.form .form-main .form-information .topiclist .information-category .posts{
+    display: block;
+    width: 8%;
+    float: left;
+}
+.form .form-main .form-information .topiclist .information-category .last-post{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.form .form-main .form-information .topiclist ul .text-color{
+    color: #777777;;
+    font-size: 13px;
+}
